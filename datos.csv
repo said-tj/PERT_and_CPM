@@ -1,0 +1,11 @@
+Nodo,Actividad,Predecesoras,Duracion
+A,Primera,,6
+B,Segunda,,1
+C,Tercera,A,3
+D,Cuarta,A,5
+E,Quinta,A,3
+F,Sexta,C,2
+G,Septima,D,3
+H,Octava,"B,E",4
+I,Novena,H,2
+J,Decima,"F,G,I",14
