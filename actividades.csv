@@ -1,0 +1,31 @@
+Nodo,"Par ordenado (i,j)",Tiempo de actividad (t_i),Predecesor,Actividad
+INICIO,"(0,0)",0,,INICIO
+A,"(0,1)",2.0,INICIO,Reunión con el cliente para entender el problema
+B,"(1,2)",3.17,A,Redacción de requisitos funcionales y no funcionales
+C,"(2,3)",3.0,B,Estudio de factibilidad técnica y elección de tecnologías
+D,"(2,4)",5.0,B,"Diseño del sistema (arquitectura general, componentes)"
+D,"(1,4)",5.0,A,"Diseño del sistema (arquitectura general, componentes)"
+E,"(4,5)",2.0,D,Aprobación del cliente sobre el plan de desarrollo
+F,"(5,6)",1.17,E,Creación de estructura de carpetas del proyecto
+G,"(6,7)",2.0,F,Configuración de herramientas de desarrollo
+H,"(6,8)",2.0,F,Generación de datos de prueba
+I,"(8,9)",1.17,H,Diseño de conjunto mínimo variable de datos
+J,"(7,10)",3.0,G,Desarrollo del módulo de lectura de datos
+K,"(7,11)",2.0,G,Desarrollo de estructuras de datos
+L,"(10,12)",3.17,J,Desarrollo del módulo de detección de anomalias
+L,"(11,12)",3.17,K,Desarrollo del módulo de detección de anomalias
+M,"(12,13)",3.0,L,Implementación de lógica estadística
+N,"(13,14)",2.0,M,Desarrollo del módulo de escritura de resultados
+O,"(14,15)",2.0,N,Integración del sistema en maincpp
+P,"(15,16)",2.0,O,Pruebas unitarias de cada módulo
+Q,"(16,17)",2.0,P,Pruebas funcionales de extremo a extremo
+R,"(17,18)",3.0,Q,Pruebas de estrés con grandes volúmenes de datos
+S,"(18,19)",1.17,R,Optimización de rendimiento
+T,"(15,20)",3.0,O,Redacción de documentación técnica
+U,"(19,21)",2.0,S,Creación del ejecutable final y empaquetado
+U,"(20,21)",2.0,T,Creación del ejecutable final y empaquetado
+V,"(21,22)",2.0,U,Generación de presentación para el cliente
+W,"(22,23)",1.17,V,Entrega del software al cliente
+X,"(23,24)",1.17,W,Reunión de demostración y retroalimentación
+Y,"(24,25)",1.0,X,Registro de lecciones aprendidas
+FINAL,"(25,25)",0,Y,FINAL

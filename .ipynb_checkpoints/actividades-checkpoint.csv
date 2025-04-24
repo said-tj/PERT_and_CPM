@@ -1,0 +1,7 @@
+Nodo,Actividad,Predecesores,Par Ordenado
+INICIO,INICIO,,"(0,0)"
+A,Primera,INICIO,"(1,2)"
+B,B,A (Duración: 1.0),"(2,3)"
+C,Tercera,B (Duración: 2.0),"(3,4)"
+D,Cuarta,B (Duración: 3.0),"(4,5)"
+E,Quinta,C (Duración: 3.0); D (Duración: 3.0),"(5,6)"
